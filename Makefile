@@ -9,5 +9,5 @@ main.o: sum.h main.cpp
 	g++ -o main.o main.cpp
 
 clean: 
-	rm -fsum.o nain.o
+	rm -f sum.o nain.o
 	rm -f sum
